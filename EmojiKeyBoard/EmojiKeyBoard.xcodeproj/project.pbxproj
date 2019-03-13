@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		90C584BF223928D600FE17A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C584BE223928D600FE17A5 /* AppDelegate.m */; };
+		90C584C2223928D600FE17A5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C584C1223928D600FE17A5 /* ViewController.m */; };
+		90C584C5223928D600FE17A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90C584C3223928D600FE17A5 /* Main.storyboard */; };
+		90C584C7223928D800FE17A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90C584C6223928D800FE17A5 /* Assets.xcassets */; };
+		90C584CA223928D800FE17A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90C584C8223928D800FE17A5 /* LaunchScreen.storyboard */; };
+		90C584CD223928D800FE17A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C584CC223928D800FE17A5 /* main.m */; };
+		90C584FB223928FF00FE17A5 /* PPQueuingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C584D6223928FF00FE17A5 /* PPQueuingScrollView.m */; };
+		90C584FC223928FF00FE17A5 /* NSAttributedString+PPAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C584D7223928FF00FE17A5 /* NSAttributedString+PPAddition.m */; };
+		90C584FD223928FF00FE17A5 /* UIScreen+PPAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C584DA223928FF00FE17A5 /* UIScreen+PPAddition.m */; };
+		90C584FE223928FF00FE17A5 /* UIScrollView+PPAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C584DB223928FF00FE17A5 /* UIScrollView+PPAddition.m */; };
+		90C584FF223928FF00FE17A5 /* UIColor+PPAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C584DC223928FF00FE17A5 /* UIColor+PPAddition.m */; };
+		90C58500223928FF00FE17A5 /* PPTextBackedString.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C584DD223928FF00FE17A5 /* PPTextBackedString.m */; };
+		90C58501223928FF00FE17A5 /* NSString+PPAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C584E1223928FF00FE17A5 /* NSString+PPAddition.m */; };
+		90C58502223928FF00FE17A5 /* PPSlideLineButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C584E2223928FF00FE17A5 /* PPSlideLineButton.m */; };
+		90C58503223928FF00FE17A5 /* UIButton+PPAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C584E7223928FF00FE17A5 /* UIButton+PPAddition.m */; };
+		90C58504223928FF00FE17A5 /* PPStickerInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C584EA223928FF00FE17A5 /* PPStickerInputView.m */; };
+		90C58505223928FF00FE17A5 /* PPStickerDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C584EF223928FF00FE17A5 /* PPStickerDataManager.m */; };
+		90C58506223928FF00FE17A5 /* PPEmoji.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C584F0223928FF00FE17A5 /* PPEmoji.m */; };
+		90C58507223928FF00FE17A5 /* PPSticker.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C584F1223928FF00FE17A5 /* PPSticker.m */; };
+		90C58508223928FF00FE17A5 /* PPEmojiPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C584F3223928FF00FE17A5 /* PPEmojiPreviewView.m */; };
+		90C58509223928FF00FE17A5 /* PPStickerPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C584F4223928FF00FE17A5 /* PPStickerPageView.m */; };
+		90C5850A223928FF00FE17A5 /* EmojiPackage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 90C584F5223928FF00FE17A5 /* EmojiPackage.bundle */; };
+		90C5850B223928FF00FE17A5 /* PPStickerTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C584F6223928FF00FE17A5 /* PPStickerTextView.m */; };
+		90C5850C223928FF00FE17A5 /* PPStickerKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C584F7223928FF00FE17A5 /* PPStickerKeyboard.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		90C584BA223928D600FE17A5 /* EmojiKeyBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmojiKeyBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90C584BD223928D600FE17A5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		90C584BE223928D600FE17A5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		90C584C0223928D600FE17A5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		90C584C1223928D600FE17A5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		90C584C4223928D600FE17A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		90C584C6223928D800FE17A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90C584C9223928D800FE17A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		90C584CB223928D800FE17A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90C584CC223928D800FE17A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		90C584D4223928FF00FE17A5 /* PPStickerInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPStickerInputView.h; sourceTree = "<group>"; };
+		90C584D6223928FF00FE17A5 /* PPQueuingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPQueuingScrollView.m; sourceTree = "<group>"; };
+		90C584D7223928FF00FE17A5 /* NSAttributedString+PPAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+PPAddition.m"; sourceTree = "<group>"; };
+		90C584D8223928FF00FE17A5 /* PPSlideLineButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPSlideLineButton.h; sourceTree = "<group>"; };
+		90C584D9223928FF00FE17A5 /* NSString+PPAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+PPAddition.h"; sourceTree = "<group>"; };
+		90C584DA223928FF00FE17A5 /* UIScreen+PPAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+PPAddition.m"; sourceTree = "<group>"; };
+		90C584DB223928FF00FE17A5 /* UIScrollView+PPAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+PPAddition.m"; sourceTree = "<group>"; };
+		90C584DC223928FF00FE17A5 /* UIColor+PPAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+PPAddition.m"; sourceTree = "<group>"; };
+		90C584DD223928FF00FE17A5 /* PPTextBackedString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPTextBackedString.m; sourceTree = "<group>"; };
+		90C584DE223928FF00FE17A5 /* UIButton+PPAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+PPAddition.h"; sourceTree = "<group>"; };
+		90C584DF223928FF00FE17A5 /* PPQueuingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPQueuingScrollView.h; sourceTree = "<group>"; };
+		90C584E0223928FF00FE17A5 /* PPReusablePage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPReusablePage.h; sourceTree = "<group>"; };
+		90C584E1223928FF00FE17A5 /* NSString+PPAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+PPAddition.m"; sourceTree = "<group>"; };
+		90C584E2223928FF00FE17A5 /* PPSlideLineButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPSlideLineButton.m; sourceTree = "<group>"; };
+		90C584E3223928FF00FE17A5 /* NSAttributedString+PPAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+PPAddition.h"; sourceTree = "<group>"; };
+		90C584E4223928FF00FE17A5 /* UIScrollView+PPAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+PPAddition.h"; sourceTree = "<group>"; };
+		90C584E5223928FF00FE17A5 /* UIScreen+PPAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+PPAddition.h"; sourceTree = "<group>"; };
+		90C584E6223928FF00FE17A5 /* PPUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPUtil.h; sourceTree = "<group>"; };
+		90C584E7223928FF00FE17A5 /* UIButton+PPAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+PPAddition.m"; sourceTree = "<group>"; };
+		90C584E8223928FF00FE17A5 /* PPTextBackedString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPTextBackedString.h; sourceTree = "<group>"; };
+		90C584E9223928FF00FE17A5 /* UIColor+PPAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+PPAddition.h"; sourceTree = "<group>"; };
+		90C584EA223928FF00FE17A5 /* PPStickerInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPStickerInputView.m; sourceTree = "<group>"; };
+		90C584EC223928FF00FE17A5 /* PPStickerTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPStickerTextView.h; sourceTree = "<group>"; };
+		90C584ED223928FF00FE17A5 /* PPStickerPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPStickerPageView.h; sourceTree = "<group>"; };
+		90C584EE223928FF00FE17A5 /* PPEmojiPreviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPEmojiPreviewView.h; sourceTree = "<group>"; };
+		90C584EF223928FF00FE17A5 /* PPStickerDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPStickerDataManager.m; sourceTree = "<group>"; };
+		90C584F0223928FF00FE17A5 /* PPEmoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPEmoji.m; sourceTree = "<group>"; };
+		90C584F1223928FF00FE17A5 /* PPSticker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPSticker.m; sourceTree = "<group>"; };
+		90C584F2223928FF00FE17A5 /* PPStickerKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPStickerKeyboard.h; sourceTree = "<group>"; };
+		90C584F3223928FF00FE17A5 /* PPEmojiPreviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPEmojiPreviewView.m; sourceTree = "<group>"; };
+		90C584F4223928FF00FE17A5 /* PPStickerPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPStickerPageView.m; sourceTree = "<group>"; };
+		90C584F5223928FF00FE17A5 /* EmojiPackage.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = EmojiPackage.bundle; sourceTree = "<group>"; };
+		90C584F6223928FF00FE17A5 /* PPStickerTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPStickerTextView.m; sourceTree = "<group>"; };
+		90C584F7223928FF00FE17A5 /* PPStickerKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPStickerKeyboard.m; sourceTree = "<group>"; };
+		90C584F8223928FF00FE17A5 /* PPSticker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPSticker.h; sourceTree = "<group>"; };
+		90C584F9223928FF00FE17A5 /* PPEmoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPEmoji.h; sourceTree = "<group>"; };
+		90C584FA223928FF00FE17A5 /* PPStickerDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPStickerDataManager.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90C584B7223928D600FE17A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		90C584B1223928D600FE17A5 = {
+			isa = PBXGroup;
+			children = (
+				90C584BC223928D600FE17A5 /* EmojiKeyBoard */,
+				90C584BB223928D600FE17A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		90C584BB223928D600FE17A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90C584BA223928D600FE17A5 /* EmojiKeyBoard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90C584BC223928D600FE17A5 /* EmojiKeyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				90C584D3223928FF00FE17A5 /* TTStickerKeyboard */,
+				90C584BD223928D600FE17A5 /* AppDelegate.h */,
+				90C584BE223928D600FE17A5 /* AppDelegate.m */,
+				90C584C0223928D600FE17A5 /* ViewController.h */,
+				90C584C1223928D600FE17A5 /* ViewController.m */,
+				90C584C3223928D600FE17A5 /* Main.storyboard */,
+				90C584C6223928D800FE17A5 /* Assets.xcassets */,
+				90C584C8223928D800FE17A5 /* LaunchScreen.storyboard */,
+				90C584CB223928D800FE17A5 /* Info.plist */,
+				90C584CC223928D800FE17A5 /* main.m */,
+			);
+			path = EmojiKeyBoard;
+			sourceTree = "<group>";
+		};
+		90C584D3223928FF00FE17A5 /* TTStickerKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				90C584D4223928FF00FE17A5 /* PPStickerInputView.h */,
+				90C584EA223928FF00FE17A5 /* PPStickerInputView.m */,
+				90C584D5223928FF00FE17A5 /* Util */,
+				90C584EB223928FF00FE17A5 /* Keyboard */,
+			);
+			path = TTStickerKeyboard;
+			sourceTree = "<group>";
+		};
+		90C584D5223928FF00FE17A5 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				90C584D6223928FF00FE17A5 /* PPQueuingScrollView.m */,
+				90C584D7223928FF00FE17A5 /* NSAttributedString+PPAddition.m */,
+				90C584D8223928FF00FE17A5 /* PPSlideLineButton.h */,
+				90C584D9223928FF00FE17A5 /* NSString+PPAddition.h */,
+				90C584DA223928FF00FE17A5 /* UIScreen+PPAddition.m */,
+				90C584DB223928FF00FE17A5 /* UIScrollView+PPAddition.m */,
+				90C584DC223928FF00FE17A5 /* UIColor+PPAddition.m */,
+				90C584DD223928FF00FE17A5 /* PPTextBackedString.m */,
+				90C584DE223928FF00FE17A5 /* UIButton+PPAddition.h */,
+				90C584DF223928FF00FE17A5 /* PPQueuingScrollView.h */,
+				90C584E0223928FF00FE17A5 /* PPReusablePage.h */,
+				90C584E1223928FF00FE17A5 /* NSString+PPAddition.m */,
+				90C584E2223928FF00FE17A5 /* PPSlideLineButton.m */,
+				90C584E3223928FF00FE17A5 /* NSAttributedString+PPAddition.h */,
+				90C584E4223928FF00FE17A5 /* UIScrollView+PPAddition.h */,
+				90C584E5223928FF00FE17A5 /* UIScreen+PPAddition.h */,
+				90C584E6223928FF00FE17A5 /* PPUtil.h */,
+				90C584E7223928FF00FE17A5 /* UIButton+PPAddition.m */,
+				90C584E8223928FF00FE17A5 /* PPTextBackedString.h */,
+				90C584E9223928FF00FE17A5 /* UIColor+PPAddition.h */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		90C584EB223928FF00FE17A5 /* Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				90C584EC223928FF00FE17A5 /* PPStickerTextView.h */,
+				90C584ED223928FF00FE17A5 /* PPStickerPageView.h */,
+				90C584EE223928FF00FE17A5 /* PPEmojiPreviewView.h */,
+				90C584EF223928FF00FE17A5 /* PPStickerDataManager.m */,
+				90C584F0223928FF00FE17A5 /* PPEmoji.m */,
+				90C584F1223928FF00FE17A5 /* PPSticker.m */,
+				90C584F2223928FF00FE17A5 /* PPStickerKeyboard.h */,
+				90C584F3223928FF00FE17A5 /* PPEmojiPreviewView.m */,
+				90C584F4223928FF00FE17A5 /* PPStickerPageView.m */,
+				90C584F5223928FF00FE17A5 /* EmojiPackage.bundle */,
+				90C584F6223928FF00FE17A5 /* PPStickerTextView.m */,
+				90C584F7223928FF00FE17A5 /* PPStickerKeyboard.m */,
+				90C584F8223928FF00FE17A5 /* PPSticker.h */,
+				90C584F9223928FF00FE17A5 /* PPEmoji.h */,
+				90C584FA223928FF00FE17A5 /* PPStickerDataManager.h */,
+			);
+			path = Keyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90C584B9223928D600FE17A5 /* EmojiKeyBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90C584D0223928D800FE17A5 /* Build configuration list for PBXNativeTarget "EmojiKeyBoard" */;
+			buildPhases = (
+				90C584B6223928D600FE17A5 /* Sources */,
+				90C584B7223928D600FE17A5 /* Frameworks */,
+				90C584B8223928D600FE17A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EmojiKeyBoard;
+			productName = EmojiKeyBoard;
+			productReference = 90C584BA223928D600FE17A5 /* EmojiKeyBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90C584B2223928D600FE17A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = none;
+				TargetAttributes = {
+					90C584B9223928D600FE17A5 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 90C584B5223928D600FE17A5 /* Build configuration list for PBXProject "EmojiKeyBoard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 90C584B1223928D600FE17A5;
+			productRefGroup = 90C584BB223928D600FE17A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90C584B9223928D600FE17A5 /* EmojiKeyBoard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90C584B8223928D600FE17A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90C584CA223928D800FE17A5 /* LaunchScreen.storyboard in Resources */,
+				90C584C7223928D800FE17A5 /* Assets.xcassets in Resources */,
+				90C584C5223928D600FE17A5 /* Main.storyboard in Resources */,
+				90C5850A223928FF00FE17A5 /* EmojiPackage.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90C584B6223928D600FE17A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90C584FB223928FF00FE17A5 /* PPQueuingScrollView.m in Sources */,
+				90C58502223928FF00FE17A5 /* PPSlideLineButton.m in Sources */,
+				90C584FE223928FF00FE17A5 /* UIScrollView+PPAddition.m in Sources */,
+				90C58509223928FF00FE17A5 /* PPStickerPageView.m in Sources */,
+				90C584C2223928D600FE17A5 /* ViewController.m in Sources */,
+				90C584FF223928FF00FE17A5 /* UIColor+PPAddition.m in Sources */,
+				90C584FC223928FF00FE17A5 /* NSAttributedString+PPAddition.m in Sources */,
+				90C5850B223928FF00FE17A5 /* PPStickerTextView.m in Sources */,
+				90C5850C223928FF00FE17A5 /* PPStickerKeyboard.m in Sources */,
+				90C58504223928FF00FE17A5 /* PPStickerInputView.m in Sources */,
+				90C58501223928FF00FE17A5 /* NSString+PPAddition.m in Sources */,
+				90C584FD223928FF00FE17A5 /* UIScreen+PPAddition.m in Sources */,
+				90C584CD223928D800FE17A5 /* main.m in Sources */,
+				90C58506223928FF00FE17A5 /* PPEmoji.m in Sources */,
+				90C58508223928FF00FE17A5 /* PPEmojiPreviewView.m in Sources */,
+				90C58507223928FF00FE17A5 /* PPSticker.m in Sources */,
+				90C58503223928FF00FE17A5 /* UIButton+PPAddition.m in Sources */,
+				90C58505223928FF00FE17A5 /* PPStickerDataManager.m in Sources */,
+				90C584BF223928D600FE17A5 /* AppDelegate.m in Sources */,
+				90C58500223928FF00FE17A5 /* PPTextBackedString.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		90C584C3223928D600FE17A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90C584C4223928D600FE17A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		90C584C8223928D800FE17A5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90C584C9223928D800FE17A5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		90C584CE223928D800FE17A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		90C584CF223928D800FE17A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90C584D1223928D800FE17A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EmojiKeyBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lvhaoyang86-163.com.EmojiKeyBoard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		90C584D2223928D800FE17A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EmojiKeyBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lvhaoyang86-163.com.EmojiKeyBoard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90C584B5223928D600FE17A5 /* Build configuration list for PBXProject "EmojiKeyBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90C584CE223928D800FE17A5 /* Debug */,
+				90C584CF223928D800FE17A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90C584D0223928D800FE17A5 /* Build configuration list for PBXNativeTarget "EmojiKeyBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90C584D1223928D800FE17A5 /* Debug */,
+				90C584D2223928D800FE17A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90C584B2223928D600FE17A5 /* Project object */;
+}
